@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Regression Suite">
+    <listeners>
+        <listener class-name="se.cambio.test.runner.framework.runner.DelegatingTestRunner"></listener>
+        <listener class-name="se.cambio.test.taf.core.listener.TestNgListener"></listener>
+    </listeners>
+    <test name = "Regression Scope Execution Coverage">
+        <groups>
+            <run>
+                <include name="reg"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="se.cambio.qa"></package>
+        </packages>
+    </test>
+</suite>

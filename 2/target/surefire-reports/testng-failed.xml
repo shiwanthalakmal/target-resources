@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Unit Test Suite]">
+  <listeners>
+    <listener class-name="se.cambio.test.runner.framework.runner.DelegatingTestRunner"/>
+    <listener class-name="se.cambio.test.taf.core.listener.TestNgListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Unit Test Execution Coverage(failed)">
+    <groups>
+      <run>
+        <include name="dev"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="se.cambio.qa.dev.MbSampleTest">
+        <methods>
+          <include name="step_mb_region_membership"/>
+        </methods>
+      </class> <!-- se.cambio.qa.dev.MbSampleTest -->
+    </classes>
+  </test> <!-- Unit Test Execution Coverage(failed) -->
+</suite> <!-- Failed suite [Unit Test Suite] -->

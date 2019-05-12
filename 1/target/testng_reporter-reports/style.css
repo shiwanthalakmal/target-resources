@@ -1,0 +1,98 @@
+
+                    .testMethodStatusCONF { display: none; }
+                
+                    .testMethodStatusFAIL { background-color: #FFBBBB; }
+                
+                    .testMethodStatusPASS { background-color: lightgreen; }
+                
+                    .testMethodStatusSKIP { background-color: #FFFFBB; }
+                
+
+            
+                    .testMethodStatusCONF { display: none; }
+
+                    .testMethodStatusFAIL { background-color: #FFBBBB; }
+
+                    .testMethodStatusPASS { background-color: lightgreen; }
+
+                    .testMethodStatusSKIP { background-color: #FFFFBB; }
+
+
+            body { font-family: Arial, sans-serif; font-size: 12px; padding: 10px; margin: 0px; background:white url('images/jenkins-icon.png') no-repeat scroll top right; }
+            a, a:hover, a:active, a:visited { color: navy; }
+
+            .suiteMenuHeader { margin-top: 10px; }
+            .suiteMenuHeader td { padding: 5px; background-color: #e0e0e0; font-size: 12px; width: 100%; vertical-align: top; }
+
+            tr.methodsTableHeader { background-color: #cedcec; font-weight: bold; }
+            tr.methodsTableHeader td { padding: 3px; }
+
+            .suiteStatusPass, .suiteStatusFail, .suiteStatus { padding-right: 20px; width: 20px; height: 20px; margin: 2px 4px 2px 2px; display: inline; }
+            .suiteStatusPass { background-color: green; }
+            .suiteStatusFail { background-color: red; }
+            .suiteStatus { border:2px solid #f5f5f5; background-color: #f5f5f5; }
+
+            .testCaseLink, .testCaseLinkSelected { margin-top: 2px; padding: 4px; cursor: pointer; }
+            .testCaseLink { background-color: white; }
+            .testCaseLinkSelected { background-color: lightblue; border: 1px solid gray;  padding: 3px; }
+            .testCaseFail, .testCasePass, .testCaseSkip { padding-right: 15px; width: 15px; height: 15px; margin: 2px 4px 2px 2px; display: inline; }
+            .testCaseFail { background-color: red; }
+            .testCasePass { background-color: green; }
+            .testCaseSkip { background-color: yellow; }
+
+            .suiteTableHeader { margin-top: 1px; font-size: 12px; cell-padding: 10; cell-spacing: 7; }
+            .suiteTableHeader tr { margin-top: 2px; padding: 4px; background-color: white; font-size: 11px; font-weight: bold; }
+            .suiteTableHeader td { margin: 2px 2px 2px 2px; }
+            .suiteTablePassRate { margin-top: 2px; padding: 4px; background-color: white; }
+
+			tr.serviceRunTableHeader { background-color: #eaf0f7; font-weight: bold; }
+            tr.serviceRunTableHeader td { margin-top: 2px; padding: 4px; }
+
+            <!--.testMethodStatusFAIL a, .testMethodStatusPASS a, .testMethodStatusSKIP a {  color: black; text-decoration: none; cursor: pointer; font-size: 11px; font-weight: bold }-->
+			.testMethodStatusFAIL a { color: black; cursor: pointer; font-size: 11px; font-weight: bold }
+			.testMethodStatusPASS a, .testMethodStatusSKIP a { text-decoration: none; cursor: pointer; font-size: 11px; font-weight: bold }
+			.testMethodStatusFAIL td, .testMethodStatusPASS td, .testMethodStatusSKIP td { padding: 3px; }
+
+			.testMethodStatusPASS td { background-color: #2BCC71 }
+			.testMethodStatusFAIL td { background-color: #F23838 }
+			.testMethodStatusSKIP td { background-color: #f2cb27 }
+
+			.testMethodStatusPASS td:hover  { background-color: #2CDB78; }
+			.testMethodStatusFAIL td:hover  { background-color: #F05151; }
+			.testMethodStatusSKIP td:hover  { background-color: #f4d44c; }
+
+            .testMethodDetails, .testMethodDetailsVisible { padding: 5px; background-color: #EEEED0; margin: 1px; }
+			.testMethodDetailsVisible td { font-size: 10px;}
+            .testMethodDetails { display: none; }
+
+            .testRunDetails { padding: 0; background-color: #f5f5f5; margin: 0; }
+            .testRunDetails { display: none; }
+
+			.testRunDetailsVisible div { padding-left: 10px; font-size: 10px;}
+            .testRunDetailsVisible tr td { background-color: #EEEED0;}
+
+			.reportDetails, .reportDetailsVisible { padding: 5px; background-color: #f5f5f5; margin: 1px; }
+            .reportDetails { display: none; }
+
+			.reportsDetails, .reportsDetailsVisible { padding: 0; background-color: #f5f5f5; margin: 0; }
+            .reportsDetails { display: none; }
+
+            .exceptionDetails, .exceptionDetailsVisible { padding: 5px; background-color: #f5f5f5; margin: 1px; }
+            .exceptionDetails { display: none; }
+
+             .logDetails, .logDetailsVisible { padding: 0; background-color: #f5f5f5; margin: 0; }
+            .logDetails { display: none; }
+
+            .testMethodsTable { margin-top: 10px; font-size: 12px; }
+            .testMethodsTable td { border-width: 1px 0 0 1px; border-color: white; border-style:solid;  }
+            .testMethodsTable .detailsBox { padding: 0; background-color: white; border-style: none; height: 0px; }
+            .testMethodsTable .testMethodStatusCONF td.firstMethodCell { border-left: 5px solid gray; }
+
+			.individualRunsPass td { background-color: #DBFFE2}
+			.individualRuns a { font-weight: bold}
+
+			.individualRunsFail td { background-color: #FFBBBB; cursor: pointer;}
+
+			.imgExpandClose { float: left; padding-top: 3px; padding-left: 3px; padding-right: 5px}
+            
+        

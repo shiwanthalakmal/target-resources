@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Smoke Suite</th></tr>
+<tr><td><a href="#t0">Smoke Scope Execution Coverage</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">66,500</td><td>devx</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Scope Execution Coverage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">se.cambio.qa.dev.AS_UNIT_01_01Test</td><td><a href="#m0">test_cosmic_as_attention_signal_open_attention_signal_create_new_ContagiousDisease_Type</a></td><td rowspan="1">1552475478175</td><td rowspan="1">66452</td></tr></tbody>
+</table>
+<h2>Smoke Scope Execution Coverage</h2><h3 id="m0">se.cambio.qa.dev.AS_UNIT_01_01Test#test_cosmic_as_attention_signal_open_attention_signal_create_new_ContagiousDisease_Type</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">test_step_initiation<br/>test_step_initiation</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: se.cambio.test.taf.core.exception.ApplicationException: Component not found on the active window. Unexpected window open. 
+Component: se.cambiosys.client.framework.components.CambioButton[,5,58,56x21,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.synth.SynthBorder@7996d0d4,flags=416,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=10,bottom=2,right=10],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=New...,defaultCapable=true]
+Currently Active Window: Information
+	at se.cambio.test.runner.framework.runner.DelegatingTestRunner.run(DelegatingTestRunner.java:38)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+Caused by: se.cambio.test.taf.core.exception.ApplicationException: Component not found on the active window. Unexpected window open. 
+Component: se.cambiosys.client.framework.components.CambioButton[,5,58,56x21,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.synth.SynthBorder@7996d0d4,flags=416,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=10,bottom=2,right=10],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=New...,defaultCapable=true]
+Currently Active Window: Information
+	at se.cambio.test.taf.element.desktop.elementbase.core.BaseElement.verifyComponentIsInActiveWindow(BaseElement.java:319)
+	at se.cambio.test.taf.element.desktop.elementbase.core.BaseAbstractButton.&lt;init&gt;(BaseAbstractButton.java:146)
+	at se.cambio.test.taf.element.desktop.element.JButton.&lt;init&gt;(JButton.java:41)
+	at se.cambio.test.taf.element.desktop.element.JButton.findBy(JButton.java:63)
+	at se.cambio.test.taf.element.desktop.DesktopContainerLocator.button(DesktopContainerLocator.java:38)
+	at se.cambio.qa.as.pages.CosmicASAttentionSignalPage.step_as_attention_signal_perform_new_button(CosmicASAttentionSignalPage.java:106)
+	at se.cambio.qa.dev.AS_UNIT_01_01Test.test_cosmic_as_attention_signal_open_attention_signal_create_new_ContagiousDisease_Type(AS_UNIT_01_01Test.java:23)
+	at se.cambio.test.runner.framework.executor.impl.local.TestNgTestExecutor.runTestSuite(TestNgTestExecutor.java:53)
+	at se.cambio.test.runner.framework.executor.impl.local.TestNgTestExecutor.execute(TestNgTestExecutor.java:37)
+	at se.cambio.test.runner.framework.runner.DelegatingTestRunner.run(DelegatingTestRunner.java:34)
+	... 30 more
+... Removed 51 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

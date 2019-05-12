@@ -1,0 +1,48 @@
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:regexp="http://exslt.org/regular-expressions"
+      xmlns:math="http://exslt.org/math"
+      xmlns:testng="http://testng.org"
+      xmlns:f="Functions">
+   <head xmlns="">
+      <title>CTAF Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"></link>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <LINK rel="stylesheet" href="default.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <h2 style="margin-bottom: 5px;">CTAF Results</h2>
+      <div><a href="overview.html" target="content" onclick="javscript:clearAllSelections();">
+            <h6>Results overview</h6></a></div>
+      <div></div>
+      <div><br /><table class="suiteMenuHeader" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+               <td nowrap="true"><b>Smoke Suite</b></td>
+            </tr>
+         </table>
+         <table xmlns="" class="suiteTableHeader">
+            <tr>
+               <td width="75%">
+                  <div class="testCaseLink"
+                       onclick="javscript:selectTestCaseLink(this); parent.content.location='Smoke Suite_Smoke Scope Execution Coverage.html'">
+                     <div class="testCaseFail"></div>Smoke Scope Execution Coverage
+                  </div>
+               </td>
+               <td>
+                  <div class="suiteTablePassRate">
+                     <div>0%</div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

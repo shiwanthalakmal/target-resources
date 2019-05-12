@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Suite]">
+  <listeners>
+    <listener class-name="se.cambio.test.runner.framework.runner.DelegatingTestRunner"/>
+    <listener class-name="se.cambio.test.taf.core.listener.TestNgListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Smoke Scope Execution Coverage(failed)">
+    <groups>
+      <run>
+        <include name="devx"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="se.cambio.qa.dev.AS_UNIT_01_01Test">
+        <methods>
+          <include name="test_cosmic_as_attention_signal_open_attention_signal_create_new_ContagiousDisease_Type"/>
+        </methods>
+      </class> <!-- se.cambio.qa.dev.AS_UNIT_01_01Test -->
+    </classes>
+  </test> <!-- Smoke Scope Execution Coverage(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

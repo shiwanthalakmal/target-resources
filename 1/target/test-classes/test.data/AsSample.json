@@ -1,0 +1,5 @@
+{
+  "role":"Central administrator*",
+  "unit":"The Emergency department*",
+  "messages":["msg 1","msg 2","msg 3"]
+}

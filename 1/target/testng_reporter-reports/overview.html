@@ -1,0 +1,159 @@
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:regexp="http://exslt.org/regular-expressions"
+      xmlns:math="http://exslt.org/math"
+      xmlns:testng="http://testng.org"
+      xmlns:f="Functions">
+   <head xmlns="">
+      <title>CTAF Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"></link>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <LINK rel="stylesheet" href="default.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <h2>Test suites overview</h2>
+      <table width="100%">
+         <tr>
+            <td align="center" id="chart-container"><script type="text/javascript">
+                                    renderSvgEmbedTag(600, 200);
+                                </script></td>
+         </tr>
+      </table>
+      <h3>Test Suites Summary</h3>
+      <table width="100%" cellpadding="5" cellspacing="1">
+         <tr style="background-color: #cedcec;">
+            <td width="100%">
+               <div class="suiteStatus" title="Individual Suite Status"></div>Test Suite Name
+               
+            </td>
+            <td style="font-size: 14; background-color: #FFBBBB; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 60px;">Failed</div>
+            </td>
+            <td style="font-size: 14; background-color: lightgreen; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 60px;">Passed</div>
+            </td>
+            <td style="font-size: 14; background-color: #FFFFBB; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 60px;">Skipped</div>
+            </td>
+            <td align="center"
+                style="font-size: 14; background-color: #cedcec; padding: 3px 3px 3px 0;">
+               <div style="width: 60px;">Total</div>
+            </td>
+            <td align="center"
+                style="font-size: 13; background-color: #cedcec; padding: 3px 3px 3px 0;">
+               <div style="width: 60px;">Pass(%)</div>
+            </td>
+            <td style="font-size: 14; background-color: #cedcec; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 120px;">Duration</div>
+            </td>
+         </tr>
+         <tr style="background-color: #f5f5f5; font-size: 15px;">
+            <td>
+               All Automation Test Suites
+               
+            </td>
+            <td align="center">1</td>
+            <td align="center">0</td>
+            <td align="center">0</td>
+            <td align="center">1</td>
+            <td align="center">0%</td>
+            <td align="center">1m
+               6s
+               
+            </td>
+         </tr>
+      </table><br /><table width="100%" cellpadding="5" cellspacing="1">
+         <tr style="background-color: #cedcec;">
+            <td width="100%">
+               <div class="suiteStatusFail"></div>Smoke Suite
+            </td>
+            <td xmlns="" style="background-color: #FFBBBB; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 60px;">1</div>
+            </td>
+            <td xmlns="" style="background-color: lightgreen; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 60px;">0</div>
+            </td>
+            <td xmlns="" style="background-color: #FFFFBB; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 60px;">0</div>
+            </td>
+            <td xmlns="" align="center"
+                style="background-color: #cedcec; padding: 3px 3px 3px 0;">
+               <div style="width: 60px;">1</div>
+            </td>
+            <td xmlns="" align="center"
+                style="font-weight: bold; background-color: #cedcec; padding: 3px 3px 3px 0;">
+               <div style="width: 60px;">0%</div>
+            </td>
+            <td xmlns="" style="background-color: #cedcec; padding: 3px 3px 3px 0;"
+                align="center">
+               <div style="width: 120px;">1m
+                  6s
+                  
+               </div>
+            </td>
+         </tr>
+         <tr style="background-color: #f5f5f5; font-size: 12px;">
+            <td>Smoke Scope Execution Coverage</td>
+            <td align="center">1</td>
+            <td align="center">0</td>
+            <td align="center">0</td>
+            <td align="center">1</td>
+            <td align="center" style="font-weight: bold;">0%</td>
+            <td align="center" nowrap="true">1m
+               6s
+               
+            </td>
+         </tr>
+      </table><br /><h3>Test Execution Log</h3>
+      <table width="100%" cellpadding="5" cellspacing="1">
+         <tr style="background-color: #f5f5f5; font-size: 15px;">
+            <td>All Test Suites Execution Log</td>
+            <td style="font-size: 14; background-color: #cedcec; padding: 3px 3px 3px 0;"
+                align="center"><a onclick="toggleLogsVisibility('log_12')">Logs</a></td>
+         </tr>
+      </table>
+      <div id="log_12" class="logDetails">
+         <div>
+            <table width="75%">
+               <tbody>
+                  <tr>
+                     <td width="100%"><font size="2"><b>Test Execution Log</b></font></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div>
+            <table width="75%">
+               <tbody>
+                  <tr nowrap="true">
+                     <td colspan="6"></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div><br /><div xmlns=""
+           style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Copyright ©
+         
+         <a href="" style="color: #8888aa;" target="_blank">
+            Cambio Test Automation Framewrok [CTAF]
+            
+         </a>
+      </div>
+   </body>
+</html>

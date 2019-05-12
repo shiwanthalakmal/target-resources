@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<config-project>
+    <environmentType>QA</environmentType>
+    <environments>
+        <environment name = "QA">
+            <!-- For chrome driver location add the path on your local directory-->
+            <browser-type><name>chrome</name><driver>webdriver.chrome.driver</driver><location>chromedriver.exe</location></browser-type>
+            <os-type>Windows</os-type>
+            <grid-mode>OFF</grid-mode>
+            <headless-mode>OFF</headless-mode>
+            <embedded-mode>ON</embedded-mode>
+            <app-mode>GUI</app-mode>
+            <dashboard>OFF</dashboard>
+            <env-jboss-config>
+                <spider_jboss_server>CSLK-AFTSP-81-2</spider_jboss_server>
+                <spider_jboss_port>14099</spider_jboss_port>
+                <spider_jboss_service_name>JBoss_TeamCI_LEO_AFT_R81_Spider_140</spider_jboss_service_name>
+                <ix3_jboss_server>CSLK-AFTIX-81-2</ix3_jboss_server>
+                <ix3_jboss_servicename>TeamCI_LEO_Cosmic</ix3_jboss_servicename>
+                <ix3_jboss_deployments_folder>\\\\CSLK-AFTIX-81-2\\e$\\ix3\\TeamCI_LEO\\instance\\Cosmic\\standalone\\deployments</ix3_jboss_deployments_folder>
+            </env-jboss-config>
+            <baseurl>
+                <!-- protocol types http , https -->
+                <protocol>http</protocol>
+                <server>puppies.herokuapp.com</server>
+                <port></port>
+                <directory></directory>
+                <page></page>
+            </baseurl>
+            <!-- application client location-->
+            <application-path>C:\\AFTSetup\\Task_2\\R8P1_AFT_LEO\\Client</application-path>
+            <timeout>
+                <implicit>8000</implicit>
+                <script>2000</script>
+                <pageload>10000</pageload>
+                <env-timeout>3000</env-timeout>
+            </timeout>
+        </environment>
+    </environments>
+</config-project>
